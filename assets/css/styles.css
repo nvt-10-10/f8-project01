@@ -67,9 +67,11 @@ a {
   z-index: 1;
 }
 .hero-wrap {
+  display: flex;
   background: #e6f0ff;
   height: calc(100vh - 90px);
   position: relative;
+  align-items: center;
 }
 
 .navbar {
